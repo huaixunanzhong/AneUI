@@ -12,13 +12,13 @@
     "lib"
   ],
   "keywords": [
-    "kitty-ui",
+    "阿",
+    "ane",
+    "ane-ui",
     "vue3组件库"
   ],
   "author": "huaixunanzhong",
   "license": "MIT",
-  "typings": "lib/index.d.ts",
-  "dependencies": {
-    "@ane-ui/utils": "workspace:^"
-  }
+  "typings": "lib/index.d.ts"
+
 }
