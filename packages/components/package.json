@@ -1,6 +1,6 @@
 {
   "name": "ane-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "lib/index.ts",
   "module": "es/index.js",
@@ -20,5 +20,4 @@
   "author": "huaixunanzhong",
   "license": "MIT",
   "typings": "lib/index.d.ts"
-
 }
