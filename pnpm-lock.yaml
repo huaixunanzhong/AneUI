@@ -31,10 +31,10 @@ importers:
         version: link:../packages/components
 
   packages/components:
-    dependencies:
-      '@ane-ui/utils':
-        specifier: workspace:^
-        version: link:../utils
+    devDependencies:
+      vite-plugin-dts:
+        specifier: ^4.5.3
+        version: 4.5.3(typescript@5.8.3)(vite@6.3.5)
 
   packages/utils: {}
 

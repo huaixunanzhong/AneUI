@@ -1,6 +1,6 @@
 {
   "name": "ane-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "lib/index.ts",
   "module": "es/index.js",
@@ -19,5 +19,8 @@
   ],
   "author": "huaixunanzhong",
   "license": "MIT",
-  "typings": "lib/index.d.ts"
+  "typings": "lib/index.d.ts",
+  "devDependencies": {
+    "vite-plugin-dts": "^4.5.3"
+  }
 }
