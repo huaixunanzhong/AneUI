@@ -1,9 +1,11 @@
 <script lang="ts" setup>
+defineOptions({
+  name: 'AneButton',
+})
 </script>
 
 <template>
-  <div>启动</div>
-  <AneButton>hhhh</AneButton>
+  <button> 测试按钮</button>
 </template>
 
 <style scoped>

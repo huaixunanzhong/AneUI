@@ -1,22 +1,12 @@
 {
-  "name": "ane-ui",
+  "name": "@ane-ui/components",
   "version": "1.0.5",
-  "description": "",
+  "description": "all components are settled here",
   "main": "index.ts",
-  "scripts": {
-    "build": "vite build"
-  },
-  "files": [
-    "es",
-    "lib"
-  ],
-  "keywords": [
-    "阿",
-    "ane",
-    "ane-ui",
-    "vue3组件库"
-  ],
-  "author": "huaixunanzhong",
+  "module": "index.ts",
   "license": "MIT",
-  "typings": "lib/index.d.ts"
+  "typings": "lib/index.d.ts",
+  "dependencies": {
+    "@ane-ui/utils": "workspace:^"
+  }
 }

@@ -1,14 +1,43 @@
 {
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
-    "baseUrl": ".", /* 指定用于解析非相对模块名的基础目录。 */
-    "jsx": "preserve", /* 指定编译后生成什么样的 JSX 代码。 */
-    "strict": true, /* 启用所有严格的类型检查选项。 */
-    "target": "ES2022", /* 设置编译输出的 JavaScript 语言版本，并包含兼容该版本的库声明。 */
-    "module": "ESNext", /* 指定生成的模块系统类型。 */
-    "skipLibCheck": true, /* 跳过对所有 .d.ts 类型声明文件的类型检查。 */
-    "esModuleInterop": true, /* 生成额外的 JavaScript 代码以支持从 CommonJS 模块中导入内容，同时启用 allowSyntheticDefaultImports 来确保类型兼容性。 */
-    "moduleResolution": "Node", /* 指定 TypeScript 如何根据模块路径（module specifier）去查找模块文件*/
-    "lib": ["esnext", "dom"] /* 指定一组已打包的库声明文件，用于描述目标运行时环境中可用的 API。 */
+    "baseUrl": ".",
+    /* 指定用于解析非相对模块名的基础目录。 */
+    "jsx": "preserve",
+    /* 指定编译后生成什么样的 JSX 代码。 */
+    "strict": true,
+    /* 启用所有严格的类型检查选项。 */
+    "target": "ES2022",
+    /* 设置编译输出的 JavaScript 语言版本，并包含兼容该版本的库声明。 */
+    "module": "ESNext",
+    /* 指定生成的模块系统类型。 */
+    "skipLibCheck": true,
+    /* 跳过对所有 .d.ts 类型声明文件的类型检查。 */
+    "esModuleInterop": true,
+    /* 生成额外的 JavaScript 代码以支持从 CommonJS 模块中导入内容，同时启用 allowSyntheticDefaultImports 来确保类型兼容性。 */
+    "moduleResolution": "Node",
+    /* 指定 TypeScript 如何根据模块路径（module specifier）去查找模块文件*/
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    /* 指定一组已打包的库声明文件，用于描述目标运行时环境中可用的 API。 */
+    "paths": {
+      "@ane-ui/utils": [
+        "packages/utils"
+      ],
+      "@ane-ui/utils/*": [
+        "packages/utils/*"
+      ],
+      "@ane-ui/components": [
+        "packages/components"
+      ],
+      "@ane-ui/components/*": [
+        "packages/components/*"
+      ],
+      "ane-ui": [
+        "packages/ane-ui"
+      ]
+    }
   }
 }

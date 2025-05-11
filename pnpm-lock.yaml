@@ -28,13 +28,19 @@ importers:
     dependencies:
       ane-ui:
         specifier: workspace:^
-        version: link:../packages/components
+        version: link:../packages/ane-ui
+
+  packages/ane-ui:
+    dependencies:
+      '@ane-ui/components':
+        specifier: workspace:^
+        version: link:../components
 
   packages/components:
-    devDependencies:
-      vite-plugin-dts:
-        specifier: ^4.5.3
-        version: 4.5.3(typescript@5.8.3)(vite@6.3.5)
+    dependencies:
+      '@ane-ui/utils':
+        specifier: workspace:^
+        version: link:../utils
 
   packages/utils: {}
 

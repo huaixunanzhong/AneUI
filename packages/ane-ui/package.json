@@ -1,0 +1,17 @@
+{
+  "name": "ane-ui",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "阿",
+    "ane",
+    "ane-ui",
+    "vue3组件库"
+  ],
+  "author": "huaixunanzhong",
+  "license": "MIT",
+  "dependencies": {
+    "@ane-ui/components": "workspace:^"
+  }
+}

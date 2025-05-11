@@ -1,0 +1,6 @@
+{
+  "name": "@ane-ui/utils",
+  "private": true,
+  "main": "index.ts",
+  "license": "MIT"
+}
